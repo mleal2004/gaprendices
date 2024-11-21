@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>AprendizServlet</servlet-name>
+        <servlet-class>com.gestionaprendices.controlador.AprendizServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AprendizServlet</servlet-name>
+        <url-pattern>/AprendizServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
